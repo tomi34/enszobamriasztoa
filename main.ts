@@ -7,6 +7,7 @@ input.onPinPressed(TouchPin.P2, function () {
     if (!(pins.analogReadPin(AnalogPin.P1) <= ertekem + 50 && pins.analogReadPin(AnalogPin.P1) >= ertekem - 50)) {
         while (!(pins.analogReadPin(AnalogPin.P1) <= ertekem + 50 && pins.analogReadPin(AnalogPin.P1) >= ertekem - 50)) {
             music.playTone(988, music.beat(BeatFraction.Whole))
+            music.playTone(784, music.beat(BeatFraction.Whole))
         }
     }
 })
