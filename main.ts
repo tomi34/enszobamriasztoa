@@ -4,5 +4,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("" + (ertekem - 50) + "-" + (ertekem + 50))
 })
 input.onPinPressed(TouchPin.P2, function () {
-	
+    if (!(false)) {
+    	
+    }
 })
